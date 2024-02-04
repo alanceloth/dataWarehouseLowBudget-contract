@@ -4,7 +4,7 @@ from datetime import datetime
 class Transaction(BaseModel):
     transaction_id: str
     transaction_time: datetime
-    ean: str
+    ean: int
     product_name: str
     price: float
     store: int
